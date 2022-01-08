@@ -16,6 +16,6 @@
 - run `yarn run model-train` to train new data and generate new model
 > model will be saved as `model.nlp`
 
-## how to test the model accuracy ?
+## How to test the model accuracy ?
 - on `modeltester.ts` add more sentence inside the test array
 - run `yarn run model-test` to see the result
