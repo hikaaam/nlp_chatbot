@@ -484,14 +484,19 @@
     "@nlpjs/core" "^4.22.5"
 
 "@nlpjs/language-min@^4.22.2":
-  version "4.21.1"
-  resolved "https://registry.yarnpkg.com/@nlpjs/language-min/-/language-min-4.21.1.tgz#d8b4da7530b1fbf7991528c4aa7429d5f0641203"
-  integrity sha512-Xe2IrCmudtc1ytxOekNHWaUwVDOc5MeIiKycN0HN8jyxxmGV1gEAioVCAs7kTvnbTcy95tw/9wqRPwaC4uQHWg==
+  version "4.22.7"
+  resolved "https://registry.yarnpkg.com/@nlpjs/language-min/-/language-min-4.22.7.tgz#986debe0297c969efe3900f73ddb492162dfae16"
+  integrity sha512-kmA9u6onlMP1sdBS8Q7yJcFPLhDgrT0q9jSovVAW+WjZN3UmkMNsrgV35q1LWnbonTKnvb/NjdaN4VnT/+nuQw==
 
-"@nlpjs/language@^4.21.1", "@nlpjs/language@^4.22.2":
+"@nlpjs/language@^4.21.1":
   version "4.21.1"
   resolved "https://registry.yarnpkg.com/@nlpjs/language/-/language-4.21.1.tgz#3bbb9d97ee11630bbb8c8ddf11273037d4803933"
   integrity sha512-xaFhH3BhVePrq2n0jL9mp27tLbDs5m/w4Sq0nzCJz1/8r2Ha59FXSmdr9Y5/K6JZNqse6OLXSNxRdX9Mo8xKLQ==
+
+"@nlpjs/language@^4.22.2":
+  version "4.22.7"
+  resolved "https://registry.yarnpkg.com/@nlpjs/language/-/language-4.22.7.tgz#59ec3af90d2be1762655aa830a2c851824094d40"
+  integrity sha512-oz5PrPwsIharMGRKZbcIkDtOko5tvynK/s765Wu7fgRHaILXT0ZoqNR/kNeo9BQCsTLV0GvFJreQ/UFy1XGZew==
 
 "@nlpjs/ner@^4.22.5":
   version "4.22.5"
@@ -502,10 +507,15 @@
     "@nlpjs/language-min" "^4.22.2"
     "@nlpjs/similarity" "^4.22.5"
 
-"@nlpjs/neural@^4.21.1", "@nlpjs/neural@^4.22.2":
+"@nlpjs/neural@^4.21.1":
   version "4.21.1"
   resolved "https://registry.yarnpkg.com/@nlpjs/neural/-/neural-4.21.1.tgz#fcd6847c0a889db9d55de047e046cddaab9e8a01"
   integrity sha512-z3FgR775va3t0bI+RDpX+jC6ooDEEG8MZn4thV5I+hAHMUUYUKTdZQLp6DElKGIkachkmbO9skgRae7oQ8id0A==
+
+"@nlpjs/neural@^4.22.2":
+  version "4.22.7"
+  resolved "https://registry.yarnpkg.com/@nlpjs/neural/-/neural-4.22.7.tgz#dec1b754060718fb13fd83dc1deeedd3e576cdde"
+  integrity sha512-sMWbuaEX5n7fuC8B8o5ueKZewA5Fu4JerBNcUzv3N5F7+SV59RFbZmDFfE+gXoF4/wwmkuZCRMV1arEut0vjoA==
 
 "@nlpjs/nlg@^4.22.0", "@nlpjs/nlg@^4.22.5":
   version "4.22.5"
@@ -559,9 +569,9 @@
   integrity sha512-X3O1u+Hynknklwuz/szGhbq2iyGKowiPiE2Soja9Hhz8+J4h1Ln85CtSb2PEL7gdvluHZ99YujZJH/JOm6scGw==
 
 "@nlpjs/slot@^4.22.2":
-  version "4.21.1"
-  resolved "https://registry.yarnpkg.com/@nlpjs/slot/-/slot-4.21.1.tgz#8a86881cb9f17df56bc58edf14c2f2f3042603dc"
-  integrity sha512-+PVNFuywvj/8YzC4K0eVVZK2MWmjeqebJxyyNxXIxllf41f2a05sio8CF75nq+HwwH/KMc0jyFZVdiucFnkTpQ==
+  version "4.22.7"
+  resolved "https://registry.yarnpkg.com/@nlpjs/slot/-/slot-4.22.7.tgz#a223aea45ee60842ab80cac70779c70ceef2c615"
+  integrity sha512-oy4azzGHiDnN/bQui4EkKjDeEWCodjvaDGFNKD50802HxXo1Iv9Ba3Occ9sn8Sbp7JOHzyIzyOvCdJt3E2lnqg==
 
 "@nlpjs/xtables@^4.21.1":
   version "4.22.5"
