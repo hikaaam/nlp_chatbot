@@ -10,8 +10,8 @@
 
 ## How to train the model with more data ?
 - check on `datasets/datatrain.json` you can add your own intents/topics
-> you can add dot to intents for continue the conversation
-> Q : what is your name ? `intent = agent.name`
+> you can add dot to intents for continue the conversation<br>
+> Q : what is your name ? `intent = agent.name`<br>
 > Q : is that have any meaning ? `intent = agent.name.meaning`
 - run `yarn run model-train` to train new data and generate new model
 > model will be saved as `model.nlp`
