@@ -1,31 +1,31 @@
 const { NlpManager } = require("node-nlp");
+const sample: ISample = require("./datasets/samples.json");
 const datatrain: IDataTrain = require("./datasets/datatrain.json");
-const sample: ISample = require("./datasets/sample.json");
 
 const manager = new NlpManager({ languages: ["en"], forceNER: true });
 
-//train from sample
-sample.data.forEach(({ utterances, answers, intent }) => {
+//train from datatrain
+datatrain.data.forEach(({ utterances, answers, intent }) => {
   //train the intents / topic
   utterances.forEach((utterance) => {
     manager.addDocument("en", utterance, intent);
   });
-  
+
   //train the answer/nlg of a topic
   answers.forEach((answer) => {
     manager.addAnswer("en", intent, answer);
   });
 });
 
-//train the intents / topic
-datatrain.topic.forEach(({ label, data }) => {
+//sample train the intents / topic
+sample.topic.forEach(({ label, data }) => {
   data.forEach((sentence) => {
     manager.addDocument("en", sentence, label);
   });
 });
 
-//train the answer/nlg of a topic
-datatrain.answer.forEach(({ label, data }) => {
+//sample train the answer/nlg of a topic
+sample.answer.forEach(({ label, data }) => {
   data.forEach((sentence) => {
     manager.addAnswer("en", label, sentence);
   });
@@ -36,7 +36,7 @@ datatrain.answer.forEach(({ label, data }) => {
   manager.save();
 })();
 
-interface IDataTrain {
+interface ISample {
   topic: Topic[];
   answer: Topic[];
 }
@@ -46,7 +46,7 @@ interface Topic {
   data: string[];
 }
 
-interface ISample {
+interface IDataTrain {
   name: string;
   locale: string;
   data: Datum[];

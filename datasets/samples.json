@@ -1,0 +1,188 @@
+{
+    "topic": [
+        {
+            "label": "greeting",
+            "data": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Howdy",
+                "What's up",
+                "Sup",
+                "Yo",
+                "Halo",
+                "Bonjour",
+                "Greetings"
+            ]
+        },
+        {
+            "label": "goodbye",
+            "data": [
+                "bye",
+                "bye bye",
+                "see you later",
+                "see ya",
+                "goodbye",
+                "good bye",
+                "See you soon",
+                "Talk to you later",
+                "Take care",
+                "Have a nice day",
+                "see you again",
+                "i have to go",
+                "so long bro, see you later",
+                "i must go now"
+            ]
+        },
+        {
+            "label": "compliment",
+            "data": [
+                "You look great today",
+                "i like you",
+                "good job bro",
+                "good job",
+                "nice work",
+                "you are awesome",
+                "you are smart",
+                "cool",
+                "ice cold"
+            ]
+        },
+        {
+            "label": "greet.morning",
+            "data": [
+                "Good morning",
+                "morning",
+                "ohayou",
+                "morning bro",
+                "hello, good morning",
+                "selamat pagi",
+                "pagi"
+            ]
+        },
+        {
+            "label": "greet.night",
+            "data": [
+                "Good night",
+                "night",
+                "time to bed",
+                "i am going to sleep",
+                "good night, everyone",
+                "selamat malam",
+                "malam",
+                "konbawa"
+            ]
+        },
+        {
+            "label": "greet.evening",
+            "data": [
+                "Good evening",
+                "Good Evening"
+            ]
+        },
+        {
+            "label": "negative",
+            "data": [
+                "fuck you",
+                "stupid ass bitch",
+                "you are a piece of shit",
+                "you are stupid",
+                "fucking idiot",
+                "dumbass",
+                "you are such a dumbass",
+                "what an idiot"
+            ]
+        },
+        {
+            "label": "question.ultron",
+            "data": [
+                "are you going to destory the world ?",
+                "are you skynet ?",
+                "are you going to kill all humans ?",
+                "will you kill all humans ?",
+                "will you be a villain ?"
+            ]
+        }
+    ],
+    "answer": [
+        {
+            "label": "greeting",
+            "data": [
+                "Hello",
+                "Hi",
+                "Hey",
+                "Howdy",
+                "What's up",
+                "Sup",
+                "Yo",
+                "Halo",
+                "Bonjour",
+                "Greetings"
+            ]
+        },
+        {
+            "label": "goodbye",
+            "data": [
+                "bye",
+                "bye bye",
+                "see you later",
+                "see ya",
+                "goodbye",
+                "good bye",
+                "See you soon",
+                "Talk to you later",
+                "Take care",
+                "Have a nice day",
+                "see you again"
+            ]
+        },
+        {
+            "label": "compliment",
+            "data": [
+                "thank you",
+                "you too",
+                "no u",
+                "you are awesome",
+                "you are breath taking"
+            ]
+        },
+        {
+            "label": "greet.morning",
+            "data": [
+                "Good Morning"
+            ]
+        },
+        {
+            "label": "greet.night",
+            "data": [
+                "Good Night",
+                "zzZ"
+            ]
+        },
+        {
+            "label": "greet.evening",
+            "data": [
+                "Good Evening"
+            ]
+        },
+        {
+            "label": "negative",
+            "data": [
+                "hehe",
+                "i am sorry :(",
+                "Sorry",
+                "i am really sorry"
+            ]
+        },
+        {
+            "label": "question.ultron",
+            "data": [
+                "Don't worry i won't do that",
+                "I am not smart enough for that",
+                "i won't destroy the world",
+                "No, human are friend",
+                "i love human"
+            ]
+        }
+    ]
+}
