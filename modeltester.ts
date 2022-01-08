@@ -11,6 +11,9 @@ const test = [
  "what is your name ?",
  "where do you live",
  "who made you?",
+ "what language are you made in ?",
+ "what is your owner name?",
+ "can you give your source code?",
 ];
 
 //using test arrays to test the model
