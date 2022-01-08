@@ -5,10 +5,10 @@
   "main": "index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start-discord": "ts-node index.ts",
-    "start-telegram": "ts-node  telegram.ts",
+    "discord": "ts-node index.ts",
+    "telegram": "ts-node  telegram.ts",
     "model-train": "ts-node train.ts",
-    "model-test": "ts-node model-test.ts"
+    "model-test": "ts-node modeltester.ts"
   },
   "author": "",
   "license": "ISC",
