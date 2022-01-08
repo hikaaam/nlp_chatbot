@@ -1,7 +1,7 @@
 require("dotenv").config();
 import { Client, Intents } from "discord.js";
 import _ from "lodash";
-import { print } from "./Helpers";
+import { colors, print } from "./Helpers";
 const { NlpManager } = require("node-nlp");
 
 const manager = new NlpManager({ languages: ["en"], forceNER: true });
@@ -28,7 +28,7 @@ client.on("messageCreate", async (ctx) => {
     content,
     author: { username },
   } = ctx;
-  console.log(`${username} : ${content}`);
+  console.log(`${colors.FgWhite}${username} : ${content}`);
   //prevent bot from responding to itself
   if (ctx.author.bot) return;
 
@@ -36,6 +36,7 @@ client.on("messageCreate", async (ctx) => {
 
   //get NLG from model
   const response: RootObject = await manager.process("en", msg);
+
   //print confidence
   print(`${Math.round(response?.score * 100)}%`, "confidence");
 
